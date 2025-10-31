@@ -1,0 +1,242 @@
+.product-detail {
+    position: relative;
+    width: 1920px;
+    margin: 0 auto;
+    font-family: 'GmarketSansTTF', sans-serif;
+}
+
+.product-phonecase {
+    position: absolute;
+    top: 120px;
+    left: 570px;
+}
+
+.product-phonecase img {
+    width: 290px;
+    height: 520px;
+    object-fit: contain;
+}
+
+.product-info {
+    position: absolute;
+    top: 120px;
+    left: 1025px;
+}
+
+.product-title-box {
+    position: relative;
+    height: 30px;
+    width: 425px;
+}
+
+.product-title {
+    position: absolute;
+    left: 0;
+    top: 0;
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 29px;
+    color: #000;
+}
+
+.share-icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    transition: opacity 0.3s ease;
+}
+
+.share-icon:hover {
+    opacity: 0.7;
+    transform: scale(1.05);
+}
+
+.product-meta {
+    margin-top: 20px;
+    font-size: 12px;
+    line-height: 14px;
+    color: #333;
+}
+
+.meta-row {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.meta-label {
+    display: inline-block;
+    width: 60px;
+    margin-right: 30px;
+    font-weight: 400;
+}
+
+.meta-value {
+    flex: 1;
+}
+
+.price-original {
+    text-decoration: line-through;
+    color: #888;
+    margin-right: 10px;
+}
+
+.price-sale {
+    text-decoration: underline;
+    color: #e74646;
+    margin-right: 10px;
+}
+
+.form-divider {
+    width: 425px;
+    height: 1px;
+    background-color: #ddd;
+    margin: 20px 0;
+}
+
+/* 옵션 행 */
+.form-row {
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+/* 라벨 */
+.form-row label {
+    font-size: 12px;
+    color: #000;
+    margin-bottom: 10px;
+}
+
+/* 선택 박스 */
+.form-row select {
+    width: 425px;
+    height: 28px;
+    border-radius: 5px;
+    border: 1px solid #666;
+    font-size: 12px;
+    font-family: 'GmarketSansTTF', sans-serif;
+    color: #333;
+    padding: 0 10px;
+    background-color: #fff;
+}
+
+.form-divider+.total-row {
+    margin-top: 30px;
+}
+
+/* TOTAL */
+.total-row {
+    font-size: 18px;
+    font-weight: 400;
+    color: #000;
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+    font-family: 'GmarketSansTTF', sans-serif;
+}
+
+.total-row .total-price {
+    margin-left: 328px;
+}
+
+/* 버튼 영역 */
+.product-actions {
+    display: flex;
+    gap: 10px;
+}
+
+.buy-btn {
+    width: 221px;
+    height: 60px;
+    border-radius: 5px;
+    background-color: #111;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 400;
+    font-family: 'GmarketSansTTF', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+.buy-btn:hover {
+    background-color: #E74646;
+}
+
+.cart-btn,
+.like-btn {
+    width: 92px;
+    height: 60px;
+    border-radius: 5px;
+    background-color: transparent;
+    border: 1px solid #666;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.cart-btn img,
+.like-btn img {
+    width: 30px;
+    height: 30px;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+.cart-btn img:hover,
+.like-btn img:hover {
+    opacity: 0.7;
+    transform: scale(1.05);
+}
+
+.image-divider {
+    width: 1000px;
+    height: 1px;
+    background-color: #111;
+    margin: 710px auto 0 auto;
+    text-align: center;
+}
+
+.category-tabs {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin: 50px auto 0 auto;
+}
+
+.category-tabs .tab-btn {
+    width: 100px;           
+    height: 35px;          
+    font-family: 'Pretendard', sans-serif; 
+    font-weight: 400;      
+    font-size: 15px;      
+    color: #111;     
+    background-color: #fff;
+    border: 1px solid #000; 
+    border-radius: 5px; 
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.category-tabs .tab-btn:hover,
+.category-tabs .tab-btn.active {
+    background-color: #111; 
+    color: #fff;          
+}
+
+.product-image {
+    margin: 70px auto 90px auto;
+    left: 50%;
+    display: block;
+    text-align: center;
+}
+.product-page .copyright {
+    right: 460px;
+}

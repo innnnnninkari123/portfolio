@@ -1,0 +1,181 @@
+.top {
+    background: #fdf5d1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 1920px;
+    height: 50px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.top h1 {
+    text-align: center;
+    font: 400 12px "pretendard";
+}
+
+.top .icon {
+    display: flex;
+    gap: 20px;
+    position: absolute;
+    left: 470px;
+}
+
+.top .icon img {
+    width: 20px;
+    height: auto;
+}
+.top .icon a img {
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+.top .icon a img:hover {
+    opacity: 0.7;
+    transform: scale(1.05);
+}
+/* ====== 헤더 ====== */
+.header {
+    width: 1920px;
+    height: 80px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    background: #fdf5d1;
+}
+
+.logo {
+    position: absolute;
+    left: 50%;
+    top: 10px;
+    transform: translateX(-50%);
+}
+
+.logo img {
+    width: 120px;
+    height: 60px;
+    object-fit: contain;
+}
+
+.search-area {
+    position: absolute;
+    right: 470px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.search-box {
+    width: 120px;
+    height: 26px;
+    border-radius: 100px;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    border: 1px solid #000;
+    position: relative;
+    z-index: 2;
+}
+
+.search-box input {
+    width: calc(100% - 30px);
+    height: 18px;
+    border: none;
+    background: transparent;
+    padding-left: 10px;
+    font-size: 12px;
+}
+
+.search-box input:focus {
+    outline: none;
+    cursor: text;
+}
+
+.search-icon {
+    position: absolute;
+    right: 5px;
+    width: 20px;
+    height: 20px;
+    background: url(../img/서치.png) no-repeat center center;
+    background-size: contain;
+    cursor: pointer;
+}
+
+/* ====== 네비게이션 ====== */
+.gnb {
+    position: relative;
+    width: 1920px;
+    height: 50px;
+    background-color: #FCFCFC;
+    margin-top: 130px;
+    overflow: visible;
+    z-index: 10;
+}
+
+/* 좌측 메뉴 */
+.gnb .left-menu {
+    position: absolute;
+    left: 470px;
+    top: 50%;
+    transform: translateY(-50%);
+    display: flex;
+    gap: 25px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+/* 우측 메뉴 */
+.gnb .right-menu {
+    position: absolute;
+    right: 470px;
+    top: 50%;
+    transform: translateY(-50%);
+    display: flex;
+    gap: 25px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.gnb a {
+    text-decoration: none;
+    color: #000;
+    font: 400 13px "pretendard";
+}
+
+/* 하위 메뉴 */
+.gnb .sub-menu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: -20px;
+    background-color: #FCFCFC;
+    border: 1px solid #ddd;
+    min-width: 90px;
+}
+
+.gnb .sub-menu li {
+    list-style: none;
+}
+
+.gnb .sub-menu li a {
+    display: block;
+    padding: 8px 15px;
+    color: #000;
+    font: 400 13px "pretendard";
+}
+
+.gnb .sub-menu li a:hover {
+    background-color: #DDF0FF;
+    color: #ff9f72;
+}
+
+.gnb .left-menu li.has-sub.active > .sub-menu {
+    display: block;
+}
+
+.gnb a:hover {
+    color: #ff9f72;
+}

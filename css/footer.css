@@ -1,0 +1,102 @@
+.footer {
+    width: 100%;
+    height: 222px;
+    bottom: 0;
+    background-color: #fdf5d1;
+    font-family: 'Pretendard', sans-serif;
+    position: relative;
+    clear: both;
+}
+
+/* 내부 콘텐츠 */
+.footer-inner {
+    width: 980px;
+    height: 100%;
+    margin: 0 auto;
+    position: relative;
+}
+
+/* CUSTOMER CENTER */
+.customer-center {
+    position: absolute;
+    top: 30px;
+    left: 0px;
+}
+
+.customer-center h4 {
+    font-weight: 400;
+    font-size: 12px;
+    margin: 0 0 15px 0;
+    color: #191919;
+}
+
+.customer-center p {
+    font-weight: 300;
+    font-size: 11px;
+    line-height: 14px;
+    margin: 0 0 15px 0;
+    color: #666;
+}
+
+.customer-center h5 {
+    display: block;
+    font-weight: 400;
+    font-size: 12px;
+    margin: 0 0 15px 0;
+    color: #191919;
+}
+
+/* ACCOUNT INFO */
+.account-info {
+    position: absolute;
+    left: 0px;
+    top: 142px;
+}
+
+.account-info h4 {
+    font-weight: 400;
+    font-size: 12px;
+    margin: 0 0 15px 0;
+    color: #191919;
+}
+
+.account-info p {
+    font-weight: 300;
+    font-size: 11px;
+    line-height: 14px;
+    margin: 0;
+    color: #666;
+}
+
+/* RETURN / EXCHANGE */
+.return-info {
+    position: absolute;
+    top: 30px;
+    right: 0px;
+    text-align: right;
+}
+
+.return-info h4 {
+    font-weight: 400;
+    font-size: 12px;
+    margin: 0 0 15px 0;
+    color: #191919;
+}
+
+.return-info p {
+    font-weight: 300;
+    font-size: 11px;
+    line-height: 14px;
+    margin: 0 0 15px 0;
+    color: #666;
+}
+
+/* COPYRIGHT */
+.copyright {
+    position: absolute;
+    bottom: 30px;
+    right: 470px;
+    font-weight: 300;
+    font-size: 11px;
+    color: #666;
+}

@@ -1,0 +1,255 @@
+
+.slide {
+    position: relative;
+    width: 1920px;
+    height: 600px;
+    margin: 100px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner {
+    width: 750px;
+    height: 600px;
+    position: relative;
+}
+
+.banner img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    cursor: pointer;
+    border-radius: 20px;
+}
+
+.banner-text {
+    position: absolute;
+    top: 40px;
+    left: 134px;
+    right: 134px;
+    font-family: 'Cooper Black', sans-serif;
+    font-size: 35px;
+    color: #4DAFFF;
+    text-align: left;
+    white-space: normal;
+    overflow: hidden;
+    text-shadow:
+        1px 1px 1px rgba(0, 0, 0, 0.2),
+        -1px -1px 1px rgba(0, 0, 0, 0.2),
+        1px 0 1px rgba(0, 0, 0, 0.2),
+        0 2px 1px rgba(0, 0, 0, 0.1);
+
+}
+
+.side-icon {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 50px;
+    height: 50px;
+    opacity: 0.3;
+}
+
+.side-icon:hover {
+    opacity: 1;
+    cursor: pointer;
+}
+
+.side-icon.back {
+    left: 500px;
+}
+
+.side-icon.next {
+    right: 500px;
+}
+
+.side-icon img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.container {
+    width: 1920px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.more-wrapper {
+    position: absolute;
+    top: 630px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    gap: 10px;
+}
+
+.dot {
+    width: 13px;
+    height: 13px;
+    border-radius: 100%;
+    background-color: #333;
+    cursor: pointer;
+    display: inline-block;
+    transition: background-color 0.1s;
+}
+
+.dot:hover {
+    background-color: #666;
+}
+
+input[type="radio"]:checked+.dot {
+    background-color: #666;
+}
+
+.items-section {
+    width: 1000px;
+    margin: 0 auto;
+    text-align: center;
+    position: relative;
+}
+
+/* 버튼 공통 */
+.items-btn {
+    display: block;
+    margin: 0 auto;
+    width: 100px;
+    height: 35px;
+    background-color: #ddf0ff;
+    border: 1px solid #666;
+    border-radius: 5px;
+    font: 400 15px "Pretandard";
+    cursor: pointer;
+    line-height: 18px;
+    transition: background-color 0.3s ease;
+}
+
+.items-btn:hover {
+    background-color: #b0e2ff;
+}
+
+/* NEW ITEMS BOX */
+.new-items {
+    display: flex;
+    width: 980px;
+    height: 354px;
+    margin: 50px auto 0 auto;
+    border: 1px solid #666;
+    background-color: #fff;
+    box-sizing: border-box;
+    background-color: #DDF0FF;
+}
+
+.new-items .item {
+    flex: 1;
+    border-right: 1px solid #666;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.new-items .item:last-child {
+    border-right: none;
+}
+
+.new-items img {
+    width: 130px;
+    height: 254px;
+    object-fit: contain;
+    cursor: pointer;
+    transition: transform 0.3s;
+}
+
+.new-items img:hover {
+    transform: scale(1.1);
+}
+
+.new-names {
+    display: flex;
+    justify-content: space-between;
+    width: 980px;
+    margin: 15px auto 0 auto;
+}
+
+.new-names p {
+    width: 245px;
+    text-align: center;
+    font: 500 15px 'GmarketSansTTF', sans-serif;
+    margin: 0;
+}
+
+/* BEST ITEMS */
+.best-btn {
+    margin-top: 50px;
+}
+
+.best-items {
+    display: flex;
+    width: 980px;
+    height: 354px;
+    margin: 50px auto 0 auto;
+    border: 1px solid #666;
+    background-color: #fff;
+    box-sizing: border-box;
+    background-color: #DDF0FF;
+}
+
+.best-items .item {
+    flex: 1;
+    border-right: 1px solid #666;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.best-items .item:last-child {
+    border-right: none;
+}
+
+.best-items img {
+    width: 130px;
+    height: 254px;
+    object-fit: contain;
+    cursor: pointer;
+    transition: transform 0.3s;
+}
+
+.best-items img:hover {
+    transform: scale(1.1);
+}
+
+.best-names {
+    display: flex;
+    justify-content: space-between;
+    width: 980px;
+    margin: 15px auto 0 auto;
+}
+
+.best-names p {
+    width: 245px;
+    text-align: center;
+    font: 500 15px 'GmarketSansTTF', sans-serif;
+    margin: 0;
+}
+
+/* 더보기 버튼 */
+.more-btn {
+    display: block;
+    margin: 50px auto 90px auto;
+    width: 80px;
+    height: 35px;
+    background-color: #ddf0ff;
+    border: 1px solid #666;
+    border-radius: 5px;
+    cursor: pointer;
+    font: 400 15px 'Pretandard', sans-serif;
+    line-height: 18px;
+}
+
+.more-btn:hover {
+    background-color: #b0e2ff;
+}
+

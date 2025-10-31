@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YOUMECASE 유메케이스</title>
+    <link href="css/common.css" rel="stylesheet">
+    <link href="css/header.css" rel="stylesheet">
+    <link href="css/product-detail.css" rel="stylesheet">
+    <link href="css/footer.css" rel="stylesheet">
+</head>
+
+<body class="product-page">
+
+    <div class="top">
+        <h1>평일 오전 10시 이전 주문시 발송됩니다.</h1>
+        <div class="icon">
+            <a href="#"><img src="img/인스타그램.png" alt="인스타그램"></a>
+            <a href="#"><img src="img/페이스북.png" alt="페이스북"></a>
+            <a href="#"><img src="img/X.png" alt="X"></a>
+        </div>
+    </div>
+    <header class="header">
+        <div class="logo">
+            <a href="메인.html"><img src="img/로고.png" alt="로고"></a>
+        </div>
+        <div class="search-area">
+            <div class="search-box">
+                <input type="text" placeholder="검색">
+                <div class="search-icon"></div>
+            </div>
+        </div>
+        <nav class="gnb">
+            <ul class="left-menu">
+                <li class="has-sub">
+                    <a href="#">폰케이스</a>
+                    <ul class="sub-menu">
+                        <li><a href="#">젤리케이스</a></li>
+                        <li><a href="상품.html">하드케이스</a></li>
+                        <li><a href="#">카드케이스</a></li>
+                        <li><a href="#">범퍼케이스</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">ACC</a></li>
+                <li><a href="#">SALE</a></li>
+                <li><a href="#">BEST</a></li>
+                <li><a href="#">✨신상품</a></li>
+            </ul>
+
+            <ul class="right-menu">
+                <li><a href="#">커뮤니티</a></li>
+                <li><a href="#">마이페이지</a></li>
+                <li><a href="#">로그인</a></li>
+                <li><a href="#">장바구니</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!-------------------------------------------------------->
+    <section class="product-detail">
+        <!-- 상품 이미지 -->
+        <div class="product-phonecase">
+            <img src="img/바나나나.png" alt="폰케이스">
+        </div>
+
+        <!-- 상품 정보 -->
+        <div class="product-info">
+            <div class="product-title-box">
+                <h2 class="product-title">바나나나</h2>
+                <img src="img/shared.png" alt="공유하기 아이콘" class="share-icon">
+            </div>
+
+            <div class="product-meta">
+                <div class="meta-row">
+                    <span class="meta-label">제조사</span>
+                    <span class="meta-value">YOUMECASE</span>
+                </div>
+
+                <div class="meta-row">
+                    <span class="meta-label">제조국</span>
+                    <span class="meta-value">대한민국</span>
+                </div>
+
+                <div class="meta-row">
+                    <span class="meta-label">판매가</span>
+                    <span class="meta-value">
+                        <span class="price-original">19,000원</span>
+                        <span class="price-sale">9,800원 51% OFF</span>
+                    </span>
+                </div>
+
+                <div class="meta-row">
+                    <span class="meta-label">배송비</span>
+                    <span class="meta-value">3,000원 (50,000원 이상 구매 시 무료)</span>
+                </div>
+            </div>
+
+            <div class="form-divider"></div>
+            <!-- 옵션 선택 -->
+            <form id="purchase-form" class="purchase-form" onsubmit="return false;">
+                <div class="form-row">
+                    <label for="design">디자인</label>
+                    <select id="design" name="design" required>
+                        <option value="">[필수] 옵션을 선택해 주세요.</option>
+                        <option value="banana-green">그린</option>
+                        <option value="banana-pink">핑크</option>
+                    </select>
+                </div>
+
+                <div class="form-row">
+                    <label for="model">기종</label>
+                    <select id="model" name="model" required>
+                        <option value="">[필수] 옵션을 선택해 주세요.</option>
+                        <option value="iphone">iPhone</option>
+                        <option value="galaxy">Galaxy</option>
+                    </select>
+                </div>
+
+                <div class="form-divider"></div>
+
+                <div class="total-row">
+                    <strong>TOTAL</strong>
+                    <span class="total-price">0원</span>
+                </div>
+
+                <!-- 버튼 -->
+                <div class="product-actions">
+                    <button class="buy-btn" type="button">바로 구매하기</button>
+                    <button class="cart-btn" type="button">
+                        <img src="img/shopping-cart.png" alt="장바구니">
+                    </button>
+                    <button class="like-btn" type="button">
+                        <img src="img/love.png" alt="좋아요">
+                    </button>
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <div class="image-divider"></div>
+
+    <nav class="category-tabs" aria-label="상품관련설명">
+        <button class="tab-btn active" data-cat="jelly">상품상세정보</button>
+        <button class="tab-btn" data-cat="hard">구매가이드</button>
+        <button class="tab-btn" data-cat="slide">구매후기</button>
+        <button class="tab-btn" data-cat="cardhard">상품문의</button>
+    </nav>
+    <section class="product-image">
+        <img src="img/bananana01.png" alt="상품 상세 이미지 전체">
+    </section>
+    <!-------------------------------------------------------->
+
+    <footer class="footer">
+        <div class="footer-inner">
+            <div class="customer-center">
+                <h4>CUSTOMER CENTER</h4>
+                <p>평일 오전 10:00 ~ 오후 5:00<br>점심 오후 12:00 ~ 오후 1:00<br>토 / 일 / 공휴일 휴무</p>
+                <h5>010-3287-7343</h5>
+            </div>
+            <div class="account-info">
+                <h4>ACCOUNT INFO</h4>
+                <p>농협 351-1001-0633-13<br>예금주 이흥섭(컵앤홀더)</p>
+            </div>
+            <div class="return-info">
+                <h4>RETURN / EXCHANGE</h4>
+                <p>광주광역시 광산구 오선동 롯데택배<br>우산대리점(유메케이스)<br>자세한 교환·반품절차 안내는<br>문의란 및 공지사항을 참고해주세요</p>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>COPYRIGHT ⓒ 유메케이스 ALL RIGHTS RESERVED</p>
+        </div>
+    </footer>
+    <script src="js/common.js"></script>
+</body>
+
+</html>

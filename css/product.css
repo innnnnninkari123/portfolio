@@ -1,0 +1,139 @@
+.category-tabs {
+    position: relative;
+    top: 100px;
+    width: 980px;
+    height: 30px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: transparent;
+    border: none;
+}
+
+.category-tabs .tab-btn {
+    height: 30px;
+    padding: 0 15px;
+    background-color: #DDF0FF;
+    border: 1px solid #666;
+    border-radius: 5px;
+    font-size: 13px;
+    font-family: 'Pretandard', sans-serif;
+    color: #000;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.category-tabs .tab-btn:hover,
+.category-tabs .tab-btn.active {
+    background-color: #b0e2ff;
+    font-weight: 600;
+}
+
+.product-section {
+    position: relative;
+}
+
+.form-row {
+    position: absolute;
+    top: 180px;
+    right: 460px;
+}
+
+.form-row select {
+    width: 100px;
+    height: 28px;
+    border-radius: 5px;
+    border: 1px solid #666;
+    font-size: 12px;
+    font-family: 'GmarketSansTTF', sans-serif;
+    color: #000;
+    padding: 0 10px;
+    background-color: #fff;
+}
+.product-items {
+    display: flex;
+    width: 980px;
+    height: 354px;
+    margin: 230px auto 0 auto; 
+    border: 1px solid #666;
+    background-color: #fff;
+    box-sizing: border-box;
+}
+
+.product-items .product-item {
+    flex: 1;
+    border-right: 1px solid #666;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #DDF0FF;
+}
+
+.product-items .product-item:last-child {
+    border-right: none;
+}
+
+.product-items img {
+    width: 130px;
+    height: 254px;
+    object-fit: contain;
+    cursor: pointer;
+    transition: transform 0.3s;
+}
+
+.product-items img:hover {
+    transform: scale(1.1);
+}
+
+.product-names {
+    display: flex;
+    justify-content: space-between;
+    width: 980px;
+    margin: 15px auto 0 auto; 
+}
+
+.product-names > div {
+    width: 245px;
+    text-align: center;
+}
+
+.product-names p {
+    font: 500 15px 'GmarketSansTTF', sans-serif;
+    margin: 0 0 5px 0;
+}
+.product-names + .product-items {
+    margin-top: 50px;
+}
+.price-row {
+    font: 500 15px 'GmarketSansTTF', sans-serif;
+}
+
+.price-row .orig {
+    text-decoration: line-through;
+    margin-right: 5px;
+}
+
+.price-row .sale {
+    color: #e74646;
+}
+
+.more-btn {
+    display: block;
+    margin: 50px auto 90px auto;
+    width: 80px;
+    height: 35px;
+    background-color: #ddf0ff;
+    border-radius: 5px;
+    cursor: pointer;
+    font: 400 15px 'Pretandard', sans-serif;
+    line-height: 18px;
+    border: 1px solid #666;
+}
+
+.more-btn:hover {
+    background-color: #b0e2ff;
+}
+.product-page .copyright {
+    right: 460px;
+}
